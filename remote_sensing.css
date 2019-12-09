@@ -15,5 +15,7 @@ img {
     margin: 0 auto;
 }
 p {
-    color: white;
+  font-size: 2em;
+  color: white;
+  text-align: center;
 }
