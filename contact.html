@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+  </head>
+  <body>
+    <h1>
+      About us
+    </h1>
+    <p>
+      Hello World! This are Milena and Annabell, the makers of the websites you currently explored.
+      <br>
+      <br>
+      We are studying Remote Sensing and GIS at Aberystwyth University in Wales, UK.
+      <br>
+      <br>
+      Do you have questions about studying Remote Sensing?
+      <br>
+      We are happy to hear from you!
+      <br>
+      <br>Just use
+      <font color="#7a00cc"> the form below to contact us!
+      </font>
+      <br>
+    <p>
+      If you are keen on studying at Aberystwyth University in particular
+      <button onclick="window.location.href = 'https://courses.aber.ac.uk/postgraduate/gis-remote-sensing-masters/';">click here
+      </button>!
+    </p>
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname">First Name
+        </label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name
+        </label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">Email
+        </label>
+        <input type="text" id="email" name="email" placeholder="Your email adress..">
+        <label for="Where are you from?">Where are you from?
+        </label>
+        <select id="Where are you from?" name="Where are you from?">
+          <option value="australia">Australia
+          </option>
+          <option value="asia">Asia
+          </option>
+          <option value="africa">Africa
+          </option>
+          <option value="canada">Canada
+          </option>
+          <option value="usa">USA
+          </option>
+          <option value="europe">Europe
+          </option>
+        </select>
+        <label for="Your question:">Your question:
+        </label>
+        <textarea id="Your question:" name="Your question:" placeholder="Write your question.." style="height:200px">
+        </textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
